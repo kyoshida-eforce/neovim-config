@@ -1,0 +1,12 @@
+[[plugins]]
+repo = 'Vimjas/vim-python-pep8-indent'
+on_ft = 'python'
+
+[[plugins]]
+repo = 'morhetz/gruvbox'
+hook_add = '''
+  let g:gruvbox_termcolors=256
+  syntax enable
+  set background=dark
+  colorscheme gruvbox
+'''
