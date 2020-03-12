@@ -153,3 +153,6 @@ set fileformats=unix
 
 " undofile
 set undofile
+
+
+let g:vim_json_syntax_conceal = 0
