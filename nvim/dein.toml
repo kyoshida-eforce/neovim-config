@@ -1,4 +1,20 @@
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 
+[[plugins]] # カラースキーマ
+repo = 'tomasr/molokai'
+hook_add = '''
+  set background=dark
+  au MyAutoCmd VimEnter * nested colorscheme molokai
+'''
+
+[[plugins]]
+repo = 'w0rp/ale'
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+
+[[plugins]]
+repo = 'jiangmiao/auto-pairs'
+
 
