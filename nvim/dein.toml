@@ -21,8 +21,3 @@ repo = 'w0rp/ale'
 
 [[plugins]]
 repo = 'pangloss/vim-javascript'
-
-[[plugins]]
-repo = 'jiangmiao/auto-pairs'
-
-
