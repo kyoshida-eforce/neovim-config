@@ -156,3 +156,5 @@ set undofile
 
 
 let g:vim_json_syntax_conceal = 0
+
+let g:python3_host_prog = '/usr/bin/python3'
