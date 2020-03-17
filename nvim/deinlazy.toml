@@ -7,4 +7,5 @@ on_ft = 'python'
   on_event = 'InsertEnter'
   hook_add = '''
   source ~/.config/nvim/plugins/deoplete.vim
+  call dein#remote_plugins()
   '''
