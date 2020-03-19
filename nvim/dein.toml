@@ -19,6 +19,3 @@ repo = 'elzr/vim-json'
 
 [[plugins]]
 repo = 'othree/html5.vim'
-
-
-
