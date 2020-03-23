@@ -8,8 +8,8 @@ hook_add = '''
   au MyAutoCmd VimEnter * nested colorscheme gruvbox
 '''
 
-#[[plugins]]
-#repo = 'w0rp/ale'
+[[plugins]]
+repo = 'w0rp/ale'
 
 [[plugins]]
 repo = 'elzr/vim-json'
