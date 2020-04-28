@@ -8,8 +8,3 @@ command! JsonFormat :execute '%!python -m json.tool'
       \ | :set ft=json
       \ | :1
 
-" 保存時に行末スペースを削除
-augroup saveFile
-  autocmd!
-  autocmd BufWritePre * %s/\s\+$//e
-augroup END
